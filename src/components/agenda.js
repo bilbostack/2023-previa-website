@@ -70,8 +70,8 @@ export default ({ agenda, speakers }) => {
               })}
             </tbody>
           </table>
-      </div>
-      <h2 className="external-agenda text-center"><a href="https://bilbostack.com" target="_blank">Ver ahora la agenda #bilbostack23 / 28 Enero, desde las 9am</a></h2>
+        </div>
+        <h2 className="external-agenda text-center"><a href="https://bilbostack.com" target="_blank">Ver ahora la agenda #bilbostack23 / 28 Enero, desde las 9am</a></h2>
       </div>
     </section>
   )
