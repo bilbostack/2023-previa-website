@@ -50,7 +50,7 @@ table{
     background: $secondary2;
     padding: 90px 0;
     .content{
-        color: #fff;
+        color: $white;
         h1{
             font-size: 37px;
             font-weight: 400;
@@ -192,7 +192,7 @@ section{
         color: $pink;
         .img-thumbnail{
             border-color: $pink;
-            background-color: #fff;
+            background-color: $white;
             margin-bottom: 30px;
         }
     }
@@ -237,7 +237,7 @@ section{
             right: 0;
             top: 60px;
             .card{
-                background-color: #fff;
+                background-color: $white;
                 a{
                     color: $pink;
                 }
@@ -275,14 +275,26 @@ section{
     display: none;
 }
 
-#dossier{
-    a {
-        color: #fff;
-        font-weight: bold;
+.container{
+    #dossier{
+        a {
+            color: $white;
+            font-weight: bold;
+        }
+        a:hover {
+            color: $primary;
+            font-weight: bold;
+        }
     }
-    a:hover {
-        color: #EFCA08;
-        font-weight: bold;
+    .external-agenda {
+        a {
+            color: $secondary2;
+            font-weight: bold;
+        }
+        a:hover {
+            color: $primary;
+            font-weight: bold;
+        }
     }
 }
 

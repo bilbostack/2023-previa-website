@@ -69,7 +69,7 @@ module.exports =
     ],
     "agenda": {
         "visible": true,
-        "time_slots": ["16:50-17:00", "17:00-17:30", "17:45-18:15", "18:30-19:00", "19:00"],
+        "time_slots": ["16:50-17:00", "17:00-17:30", "17:45-18:15", "18:30-19:00", "19:00 >"],
         "tracks":[
             {
                 "name": "Zabalbide Eraikina",
@@ -85,6 +85,10 @@ module.exports =
                     {
                         "type": "speaker",
                         "content": "pablo-garaizar"
+                    },
+                    {
+                        "type": "text",
+                        "content": "TBD"
                     },
                     {
                         "type": "text",
