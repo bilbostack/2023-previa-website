@@ -3,7 +3,7 @@
 1.  **Clone the repository.**
 
 ```
-git clone git@bitbucket.org:bilbostack/2023-website.git
+git clone git@bitbucket.org:bilbostack/2023-previa-website.git
 ```
     
 2.  **Start developing.**
@@ -12,7 +12,7 @@ Navigate into your directory and start it up.
 
 
 ``` 
-cd 2023-website/  
+cd 2023-previa-website/  
 
 yarn install  
 
