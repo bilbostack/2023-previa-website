@@ -65,11 +65,50 @@ module.exports =
                 "title": "De la robótica educativa al pensamiento computacional: ¿cómo enseñamos todo esto?",
                 "description": "El software se ha colado en casi todos los objetos con los que nos relacionamos en nuestro día a día hasta el punto de que es casi imposible irse a dormir sin haber interactuado, aunque sea parcialmente, con un pequeño fragmento de código. <br/><br/>En este contexto, una buena alfabetización digital pasa por entender cómo funciona el software y cómo se construye, cuáles son sus capacidades y sus limitaciones, diferenciarlo de algo que simplemente sucede o que es -en ocasiones- indistinguible de la magia. <br/><br/>Con esta intención, ha surgido un gran número de iniciativas como Code.org, Hour of Code, CodeWeek y similares. Sin embargo, todavía no sabemos a ciencia cierta cuál es el mejor enfoque para desarrollar estas competencias. <br/><br/>En esta charla repasaremos algunas de ellas y trataremos de aportar algunas certezas y multitud de preguntas abiertas."
             }
+        },
+        {
+            "visible": true,
+            "slug": "bea-hernandez",
+            "company": "Machine Learning Engineer @ Paradigma",
+            "image": "/speakers/bea-hernandez.jpg",
+            "name": "Bea Hernandez",
+            "bio": "Bea Hernández es matemática de formación y lleva trabajando en Data Science casi una década. <br/<br/>En Paradigma trabaja en el departamento de innovación / preventa de datos como ML Engineer, llevando a cabo pruebas de concepto con las últimas tecnologías. Fuertemente inclinada por crear comunidad y mejorar la diversidad en el campo es cofundadora de R-Ladies Madrid y activa participante en otras comunidades como la de Scikit-Learn o NASADatanauts.",
+            "social": {
+                "twitter": "https://twitter.com/Chucheria",
+                "linkedin": "https://www.linkedin.com/in/bea-h-9ab53b71/",
+                "github": "",
+                "gitlab": "",
+                "web": ""
+            },
+            "talk": {
+                "title": "La revolución de la algoritmIA",
+                "description": "Durante la charla contaremos los últimos avances que más impacto han tenido en el último año dentro del mundo de la inteligencia artificial, que suponen estos cambios y el impacto que tienen en el desarrollo de aplicaciones. <br/<br/>También veremos algunos ejemplos de cómo podemos programar estos algoritmos para generar imágenes o textos de forma automática que hasta hace muy poco no se podían llevar a cabo usando GPT 3 o Stable diffusion."
+            }
+        },
+        {
+            "visible": true,
+            "slug": "ines-huertas",
+            "company": "Head of Data & AI @ Kairós",
+            "image": "/speakers/ines-huertas.jpg",
+            "name": "Inés Huertas",
+            "bio": "Inés Huertas es Head de Data & Inteligencia Artificial en Kairós DS y forma parte WeTheHumans, un Think Tank que trabaja la ética dentro del mundo de la Inteligencia Artificial. <br/><br/>Coordinadora de Rladies Madrid, forma parte del también del programa NASADatanauts. Emprendedora, en los últimos años ha trabajado como responsable de Datos (CDO) para Startups de ámbito médico, asesora en innovación e instructora en cursos de tecnologías de datos para LinkedIn o Platzi.",
+            "social": {
+                "twitter": "https://twitter.com/quierodata",
+                "linkedin": "https://www.linkedin.com/in/ineshuertas/",
+                "github": "",
+                "gitlab": "",
+                "web": ""
+            },
+            "talk": {
+                "title": "La revolución de la algoritmIA",
+                "description": "Durante la charla contaremos los últimos avances que más impacto han tenido en el último año dentro del mundo de la inteligencia artificial, que suponen estos cambios y el impacto que tienen en el desarrollo de aplicaciones. <br /<br />También veremos algunos ejemplos de cómo podemos programar estos algoritmos para generar imágenes o textos de forma automática que hasta hace muy poco no se podían llevar a cabo usando GPT 3 o Stable diffusion."
+            }
         }
+
     ],
     "agenda": {
         "visible": true,
-        "time_slots": ["16:50-17:00", "17:00-17:30", "17:45-18:15", "18:30-19:00", "19:00 >"],
+        "time_slots": ["16:50-17:00", "17:00-17:35", "17:40-18:15", "18:20-18:55", "18:55-19:15"],
         "tracks":[
             {
                 "name": "Zabalbide Eraikina",
@@ -87,13 +126,13 @@ module.exports =
                         "content": "pablo-garaizar"
                     },
                     {
-                        "type": "text",
-                        "content": "TBD"
+                        "type": "speaker_group",
+                        "content": "ines-huertas+bea-hernandez"
                     },
                     {
                         "type": "text",
-                        "content": "Cierre de la previa"
-                    }                    
+                        "content": "Cierre y networking con patrocinadores"
+                    }               
                 ]
             }
         ]
@@ -123,61 +162,97 @@ module.exports =
     "sponsor_blocks": [
         {
             "visible": true,
-            "name": "Con la colaboración de",
+            "name": "Patrocinador principal",
             "sponsors": [
                 {
                     "name": "Bilbao Ekintza",
                     "link": "https://www.bilbao.eus/BilbaoEkintza",
                     "image": "/sponsors/bilbao.png",
-                    "height_em": "12"
+                    "height_em": "16"
                 },
             ]
         },
         {
-            "visible": false,
+            "visible": true,
             "name": "Patrocinadores Platino",
             "sponsors": [
                 {
-                    "name": "Bilbao Ekintza",
-                    "link": "https://www.bilbao.eus/BilbaoEkintza",
-                    "image": "/sponsors/bilbao.png",
-                    "height_em": "12"
+                    "name": "FundacionBBK",
+                    "link": "https://www.bbk.eus/",
+                    "image": "/sponsors/bbk.png",
+                    "height_em": "5"
                 },
+                {
+                    "name": "LifullConnect",
+                    "link": "https://www.lifullconnect.com/",
+                    "image": "/sponsors/lifullconnect.png",
+                    "height_em": "4"
+                },
+                {
+                    "name": "PlainConcepts",
+                    "link": "https://www.plainconcepts.com/",
+                    "image": "/sponsors/plain-concepts.png",
+                    "height_em": "6"
+                }
             ]
         },
         {
-            "visible": false,
+            "visible": true,
             "name": "Patrocinadores Oro",
             "sponsors": [
                 {
-                    "name": "Bilbao Ekintza",
-                    "link": "https://www.bilbao.eus/BilbaoEkintza",
-                    "image": "/sponsors/bilbao.png",
-                    "height_em": "10"
+                    "name": "Cabify",
+                    "link": "https://cabify.com/es",
+                    "image": "/sponsors/cabify.png",
+                    "height_em": "3"
                 },
-            ]
-        },
-        {
-            "visible": false,
-            "name": "Patrocinadores Plata",
-            "sponsors": [
                 {
-                    "name": "Bilbao Ekintza",
-                    "link": "https://www.bilbao.eus/BilbaoEkintza",
-                    "image": "/sponsors/bilbao.png",
-                    "height_em": "7"
+                    "name": "OpenBank",
+                    "link": "https://www.openbank.es/",
+                    "image": "/sponsors/openbank.png",
+                    "height_em": "3"
                 },
-            ]
-        },
-        {
-            "visible": false,
-            "name": "Patrocinadores Bronce",
-            "sponsors": [
                 {
-                    "name": "Bilbao Ekintza",
-                    "link": "https://www.bilbao.eus/BilbaoEkintza",
-                    "image": "/sponsors/bilbao.png",
+                    "name": "LíbereTech",
+                    "link": "https://liberetech.com/",
+                    "image": "/sponsors/liberetech.png",
+                    "height_em": "4"
+                },
+                {
+                    "name": "seQura",
+                    "link": "https://www.sequra.es",
+                    "image": "/sponsors/sequra.png",
+                    "height_em": "2.7"
+                },
+                {
+                    "name": "KairosDS",
+                    "link": "https://www.kairosds.com/",
+                    "image": "/sponsors/kairosds.png",
+                    "height_em": "2.5"
+                },
+                {
+                    "name": "NTTData",
+                    "link": "https://es.nttdata.com/",
+                    "image": "/sponsors/ntt-data.png",
+                    "height_em": "2"
+                },
+                {
+                    "name": "VirtualWare",
+                    "link": "https://www.virtualwareco.com/",
+                    "image": "/sponsors/virtualware.png",
                     "height_em": "5"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "name": "Patrocinador guardería",
+            "sponsors": [
+                {
+                    "name": "Holaluz",
+                    "link": "https://www.holaluz.com",
+                    "image": "/sponsors/holaluz.png",
+                    "height_em": "2.5"
                 },
             ]
         },
