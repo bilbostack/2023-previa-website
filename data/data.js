@@ -2,10 +2,10 @@ module.exports =
 {
     "canonical_url": "https://bilbostack.com",
     "logo": "/logo.png",
-    "conference_name": "Bilbostack",
+    "conference_name": "previa Bilbostack",
     "conference_claim": "Charlas de calentamiento previas a la 11ª Edición #bilbostack",
     "conference_date": "Viernes 27 de Enero 2023, Zabalgune Eraikina (Edificio Ensanche), Bilbao, 17:00-19:00",
-    "conference_hashtag": "#bilbostack23",
+    "conference_hashtag": "#la_previa_de #bilbostack23",
     "location": {
         "gmaps_iframe_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.4073778003344!2d-2.9309531!3d43.263840599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e4fda6e8f040d%3A0xf7a71a76aaddbeb9!2sZabalgune%20Eraikina!5e0!3m2!1sen!2ses!4v1670236049038!5m2!1sen!2ses",
         "addresses": [
