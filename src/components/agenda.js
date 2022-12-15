@@ -9,7 +9,7 @@ export default ({ agenda, speakers }) => {
   return (
     <section id="agenda">
       <div className="container">
-        <h2 className="external-agenda text-center"><a href="https://bilbostack.com" target="_blank">Ver ahora la agenda #bilbostack23 / 28 Enero, desde las 9am</a></h2>
+        <h2 className="external-agenda text-center"><a href="https://bilbostack.com" target="_blank">¿Quieres ver también la agenda de #bilbostack23? ¡Clicka aquí!</a></h2>
         <br/>
         <h2 className="text-center">Agenda</h2>
         <div className="table-responsive-sm">
