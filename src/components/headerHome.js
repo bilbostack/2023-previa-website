@@ -17,8 +17,8 @@ const HeaderHome = ({ data }) => {
           <h1 class="display-4" dangerouslySetInnerHTML={claimWithHtml()}></h1>
           <p class="lead">{data.conference_date}</p>
 
-          <p>{data.header_banner.cta_pre_text}{data.header_banner.cta_visible}</p>
           <div class={data.header_banner.cta_visible === true ? "" : "hidden"}>
+            <p>{data.header_banner.cta_pre_text}</p>
             <a
               class="btn btn-primary btn-lg"
               href={data.header_banner.cta_url}
@@ -28,30 +28,18 @@ const HeaderHome = ({ data }) => {
             >
               {data.header_banner.cta_text}
             </a>
+            <p><br />{data.header_banner.cta_post_text}</p>
           </div>
-          <br /><br />
-          <div id="dossier">
-            <h5>
-              <span>
-                👉 Echa un ojo a nuestras&nbsp;
-                <a href="/sponsors/bilbostack-sponsors-2023_es.pdf" 
-                  target="_blank" 
-                  role="button" 
-                  rel="noopener noreferrer">
-                    opciones de patrocinio
-                </a> 👈
-              </span>
-            </h5>
-          </div>
+          <br />
           <div id="hashtag">
             <h5>
               <p>
                 ¿Quieres ver también la agenda de <span>#bilbostack23</span>?&nbsp;
-                <a href="https://bilbostack.com/" 
+                👉 <a href="https://bilbostack.com/" 
                   target="_blank" 
                   rel="noopener noreferrer">
                      ¡Clicka aquí!
-                </a>
+                </a> 👈
               </p>
             </h5>
           </div>

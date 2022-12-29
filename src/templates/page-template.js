@@ -170,6 +170,7 @@ export const pageQuery = graphql`
           cta_pre_text
           cta_visible
           cta_text
+          cta_post_text
           cta_url
         }
       }

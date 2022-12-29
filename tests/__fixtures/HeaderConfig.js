@@ -7,6 +7,7 @@ export default {
         "cta_pre_text": "100 early-bird tickets left",
         "cta_visible": true,
         "cta_text": "Tickets on sale!",
+        "cta_post_text": "100 early-bird tickets left",
         "cta_url": "https://awesome_url_for_your_ticketing_platform.com"
     }
 }
